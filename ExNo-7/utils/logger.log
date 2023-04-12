@@ -1,0 +1,123 @@
+error: Apr-07-2023 18:03:54: 	TypeError: Cannot read properties of undefined (reading 'slice') - /tasks?page=3&pageLimit=6 - GET - ::1
+error: Apr-07-2023 18:04:22: 	TypeError: Cannot read properties of undefined (reading 'slice') - /tasks?page=3&pageLimit=6 - GET - ::1
+error: Apr-07-2023 18:06:10: 	ReferenceError: tasks is not defined - /tasks?page=3&pageLimit=6 - GET - ::1
+error: Apr-07-2023 18:06:22: 	TypeError: Cannot read properties of undefined (reading 'length') - /tasks?page=3&pageLimit=6 - GET - ::1
+error: Apr-07-2023 20:10:21: 	ReferenceError: Cannot access 'taskContent' before initialization - /tasks - POST - ::1
+error: Apr-08-2023 11:53:18: 	TypeError: Class constructor _ShortUniqueId cannot be invoked without 'new' - /tasks?page=1&pageLimit=20 - GET - ::1
+error: Apr-08-2023 11:53:29: 	TypeError: Class constructor _ShortUniqueId cannot be invoked without 'new' - /tasks?page=1&pageLimit=5 - GET - ::1
+error: Apr-08-2023 11:59:33: 	Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client - /tasks - POST - ::1
+error: Apr-08-2023 17:14:18: 	Error: User not found - /tasks/12 - PUT - ::ffff:127.0.0.1
+error: Apr-08-2023 17:14:33: 	Error: User not found - /tasks/12 - PUT - ::1
+error: Apr-10-2023 10:34:46: 	Error: data/taskData/Sai.json: ENOENT: no such file or directory, open 'data/taskData/Sai.json' - /tasks - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 10:36:38: 	Error: data/taskData/Sai.json: ENOENT: no such file or directory, open 'data/taskData/Sai.json' - /tasks - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 10:36:41: 	Error: data/taskData/Sai.json: ENOENT: no such file or directory, open 'data/taskData/Sai.json' - /tasks/ - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 10:36:51: 	Error: data/taskData/Sai.json: ENOENT: no such file or directory, open 'data/taskData/Sai.json' - /tasks/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 15:55:26: 	ReferenceError: userName is not defined - /register - POST - ::ffff:127.0.0.1
+error: Apr-10-2023 15:56:20: 	ReferenceError: userName is not defined - /register - POST - ::ffff:127.0.0.1
+error: Apr-10-2023 16:17:45: 	ReferenceError: userName is not defined - /register - POST - ::ffff:127.0.0.1
+error: Apr-10-2023 16:21:27: 	Error: data/taskData/Raju.json: ENOENT: no such file or directory, open 'data/taskData/Raju.json' - /tasks/1 - GET - ::ffff:127.0.0.1
+error: Apr-11-2023 14:40:10: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 14:40:56: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 14:41:33: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 14:41:34: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 16:26:51: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 16:26:52: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:28:37: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:29:49: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:29:57: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:32:02: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:32:03: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:32:03: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:32:03: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:35:08: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:38:19: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:38:21: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:00: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:01: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:01: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:02: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:02: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:02: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:02: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:27: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:28: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:28: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:28: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:28: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:28: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:29: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:29: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:48: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:48: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:39:49: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:40:22: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:40:47: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:40:48: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:40:48: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:40:48: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:15: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:16: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:16: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:45: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:46: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:46: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:46: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:46: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:47: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:47: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:47: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:47: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:41:47: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:42:11: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:42:12: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:42:12: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:42:12: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:42:13: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:42:13: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:42:13: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:42:36: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:42:37: 	TypeError: fileOps.readFile is not a function - /login - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:45:25: 	Error: data/taskData/Sai.json: ENOENT: no such file or directory, open 'data/taskData/Sai.json' - /tasks - GET - ::ffff:127.0.0.1
+error: Apr-11-2023 17:46:02: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:46:03: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:46:04: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:46:04: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:46:04: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:48:50: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:02: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:03: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:03: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:03: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:04: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:04: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:39: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:39: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:40: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:40: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:40: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:40: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:50:40: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:06: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:07: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:08: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:08: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:08: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:08: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:08: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:08: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:28: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:29: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:29: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:29: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:51:51: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:52:20: 	TypeError: taskModel.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 17:56:47: 	TypeError: taskSchema.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 18:00:23: 	TypeError: taskSchema.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 18:07:04: 	TypeError: taskSchema.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 18:07:11: 	TypeError: taskSchema.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 18:08:59: 	TypeError: taskSchema.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 19:11:22: 	TypeError: taskSchema.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 19:15:52: 	TypeError: taskSchema.validate is not a function - /tasks - POST - ::ffff:127.0.0.1
+error: Apr-11-2023 19:29:55: 	TypeError: taskService.showSpecificTaskService is not a function - /tasks/1 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 11:17:05: 	Error: Illegal arguments: undefined, string - /register - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 11:17:30: 	Error: Illegal arguments: undefined, string - /register - POST - ::ffff:127.0.0.1
