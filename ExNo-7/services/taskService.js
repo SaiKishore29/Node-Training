@@ -38,6 +38,11 @@ function taskSorter(userName, sortBy, order) {
   return tasks;
 }
 
+function paginate(data,startIndex,endIndex) {
+  const pageData = data.slice(startIndex, endIndex);
+  return pageData;
+}
+
 function addTaskService(taskDetails, userName) {
   taskDetails.id = uid();
   taskDetails.timestamp = new Date();
@@ -76,4 +81,4 @@ function deleteTaskService(userName, taskId) {
 }
 
 
-module.exports={showTaskService, showTaskService, taskFilter, taskSorter, addTaskService, updateTaskService, deleteTaskService, showSpecificTaskService}
+module.exports={showTaskService, showTaskService, taskFilter, taskSorter, paginate, addTaskService, updateTaskService, deleteTaskService, showSpecificTaskService}

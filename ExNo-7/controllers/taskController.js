@@ -19,15 +19,11 @@ function showTask(req, res) {
   const pageLimit = req.query.pageLimit || 10;
   const startIndex = (page - 1) * pageLimit;
   const endIndex = page * pageLimit;
-  function paginate(data) {
-    const pageData = data.slice(startIndex, endIndex);
-    return pageData;
-  }
   if (req.query.filter) {
     try {
       data = taskService.taskFilter(req.user.name, req.query.filter);
       res.status(200).json({
-        data: paginate(data),
+        data: taskService.paginate(data,startIndex,endIndex),
         currentPage: page,
         totalPages: Math.ceil(data.length / pageLimit),
       });
@@ -50,7 +46,7 @@ function showTask(req, res) {
         req.query.order || "asc"
       );
       res.status(200).json({
-        data: paginate(data),
+        data: taskService.paginate(data,startIndex,endIndex),
         currentPage: page,
         totalPages: Math.ceil(data.length / pageLimit),
       });
@@ -63,7 +59,7 @@ function showTask(req, res) {
     try {
       data = taskService.showTaskService(req.user.name);
       res.status(200).json({
-        data: paginate(data),
+        data: taskService.paginate(data,startIndex,endIndex),
         currentPage: page,
         totalPages: Math.ceil(data.length / pageLimit),
       });
